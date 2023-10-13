@@ -1,0 +1,21 @@
+version: "3.3"
+
+services:
+
+  frontend:
+    container_name: ACL_REACT_CONTAINER
+    restart: always
+    build: acl
+    command: ["npm", "run", "dev"]
+    environment:
+      - http_proxy=http://10.73.211.145:8080/
+      - https_proxy=http://10.73.211.145:8080/
+    volumes:
+      - ./acl:/acl
+      - node-modules:/acl/node_modules
+    ports:
+      - "5175:5174"
+
+volumes:
+  node-modules:
+  frontend:

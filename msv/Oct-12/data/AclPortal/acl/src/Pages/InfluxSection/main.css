@@ -1,0 +1,297 @@
+/* CSS style for validation error */
+.select-error .ant-select-selector {
+  border-color: #ff4d4f;
+  box-shadow: 0 0 0 2px #ff4d4f20;
+}
+
+.close-button {
+
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.btncontainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.graph-section {
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  /* margin: 5px; */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  background-color: rgba(198, 234, 255);
+}
+
+/* .app {
+  width: 98vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ flex:1;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+} */
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+}
+
+.card {
+  border: 1px solid #D4F3FF;
+  border-radius: 8px;
+  padding: 15px;
+  /* margin: 3px; */
+  cursor: pointer;
+  background-color: #f9f9f9;
+  /* box-shadow: 3px 4px 12px 0px rgba(0, 0, 0, 0.1); */
+  box-shadow: 3px 4px 12px 0px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+
+
+.highlighted {
+  background-color: #535bf2;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(76, 175, 80, 0.3);
+
+}
+
+.none_highlighted {
+  background-color: #D4F3FF;
+  color: #000;
+  /* box-shadow: 0 4px 8px rgba(76, 175, 80, 0.3); */
+
+}
+
+
+.right-cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.add-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-radius: 5px;
+  width: 40px;
+  height: 100%;
+
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+/* .main-card {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 250px;
+  background-color: rgba(0, 0, 0, 0.03);
+  padding: 20px;
+  border-radius: 5px;
+  height: 380px;
+  border-radius: 10px;
+  margin-right: 10px;
+} */
+
+/* Existing styles... */
+
+.app {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  /* Align the content to the top of the flex container */
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  flex: 1;
+}
+
+.card-container {
+  flex: 1;
+  /* To make the card container take up all available space */
+  display: flex;
+}
+
+.main-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* width: 250px; */
+  background-color: rgba(0, 0, 0, 0.03);
+  padding: 20px;
+  border-radius: 5px;
+  height: 100%;
+  border-radius: 10px;
+  margin-left: 10px;
+  /* Create space between the card containers */
+}
+
+.reset-button {
+  position: absolute;
+  bottom: 10px;
+}
+
+/* Optional: To center the content vertically in the app container */
+.app {
+  justify-content: center;
+}
+
+/* Optional: To limit the width of the main card on larger screens */
+@media (min-width: 768px) {
+  .main-card {
+    max-width: 300px;
+    margin-left: auto;
+    /* Push the main card to the right side on larger screens */
+  }
+}
+
+
+
+.btn-custom {
+  background-color: #009BDB;
+  color: white;
+  padding: 4px 12px;
+  width: 170px;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: transform 0.1s, box-shadow 0.3s;
+  /* box-shadow: 2px 4px 3px #555; */
+  margin: 8px;
+  font-weight: 500;
+}
+
+.btn-custom:active {
+  transform: translateX(4px) translateY(6px);
+  /* box-shadow: 0px 0px 0px #ccc; */
+}
+
+.btn-custom:hover {
+  transform: scale(1.03);
+
+}
+
+
+
+.btn-custom2 {
+  background-color: #ff4d4f;
+  color: #fff;
+  padding: 3px 12px;
+  box-shadow: 4px 4px 0px #a4433f;
+  width: 150px;
+  border-radius: 12px;
+  transition: transform 0.5s, box-shadow 0.5s;
+  margin: 8px;
+  font-size: 22px;
+}
+
+.btn-custom2:active {
+  box-shadow: 0px 0px 0px #555;
+  transform: translateX(4px) translateY(4px);
+}
+
+.btn-custom2:hover {
+  transform: scale(1.03);
+}
+
+.notification-animation {
+  position: relative;
+  border-radius: 50%;
+  background-color: #009bdb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  width: 40px;
+
+}
+
+.notification-animation {
+  position: relative;
+  border-radius: 50%;
+  background-color: #009bdb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  width: 30px;
+  height: 30px;
+  color: white;
+}
+
+.notification-animation::after,
+.notification-animation::before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background-color: #000;
+  /* z-index: -1; */
+  opacity: 0.7;
+  width: 30px;
+  height: 30px;
+}
+
+/* Adjust the size and position of the pseudo-elements */
+.notification-animation::before {
+  width: 30px;
+  height: 30px;
+  animation: notification 2s ease-out infinite;
+}
+
+.notification-animation::after {
+  width: 30px;
+  height: 30px;
+  animation: notification 2s 1s ease-out infinite;
+}
+
+@keyframes notification {
+  100% {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+
+  /*
+  50% {
+    transform: scale(1.5);
+    opacity: 0.5;
+  }
+
+  0% {
+    transform: scale(2.5);
+    opacity: 0;
+  } */
+}

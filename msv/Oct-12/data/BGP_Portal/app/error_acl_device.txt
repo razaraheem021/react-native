@@ -1,0 +1,4 @@
+URL: https://10.73.212.123:8090/restconf/data/mobily-acl:api-device-acl-list/acl-api-device-ipv4-list
+payload: {'input': {'device-name': None}}
+response:{'ietf-restconf:errors': {'error': [{'error-type': 'application', 'error-tag': 'invalid-value', 'error-app-tag': 'undefined:instance-required', 'error-path': '/mobily-acl:api-device-acl-list/acl-api-device-ipv4-list/device-name', 'error-message': 'illegal reference '}]}}
+

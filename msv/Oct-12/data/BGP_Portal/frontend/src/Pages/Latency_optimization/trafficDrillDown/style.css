@@ -1,0 +1,7 @@
+.upload_btn:hover, .start_btn:hover, .download_btn:hover{
+    background-color: rgb(0, 155, 219) !important;
+}
+.upload_btn, .start_btn, .download_btn{
+font-weight: 600 !important;
+
+}

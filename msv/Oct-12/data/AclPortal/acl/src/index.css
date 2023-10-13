@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+
+
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: Montserrat;
+  padding: 0;
+
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #000;
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  /* display: flex;
+  place-items: center; */
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+.ant-table-thead .ant-table-cell {
+  background-color: #0688BE !important;
+  color: #fff !important;
+}
+
+.ant-btn {
+  background-color: #0688BE;
+  color: white !important;
+}
+
+.ant-table-row .ant-table-row-level {
+  border-left: 5px solid #0688BE !important;
+}
+
+.highlight-left-border>td {
+  border-left: solid 2px black !important;
+  border-bottom: solid 2px #6d9eff !important
+}
+
+
+.ant-modal-header{
+  background-color: #DEF5FF !important;
+}
+.ant-modal-content{
+  background-color: #DEF5FF !important;
+}
+
+.ant-drawer-content-wrapper{
+  z-index: 999 !important;
+}
+/* .ant-table-wrapper .ant-table-tbody>tr>td{
+  z-index: 9999 !important;
+} */
+.ant-table table {
+  border-spacing: 0 5px;
+}
+
+
+.rowClassName1 td:first-child {
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-left: 5px solid #009BDB;
+}
+
+.rowClassName1 td:last-child {
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+
+}
+.rowClassName2 td:first-child {
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-left: 5px solid red;
+  /* Change the border color */
+}
+
+.rowClassName2 td:last-child {
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+

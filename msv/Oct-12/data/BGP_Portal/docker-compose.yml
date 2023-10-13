@@ -1,0 +1,44 @@
+version: "3.3"
+
+services:
+  frontend:
+    container_name: BGP_REACT_CONTAINER
+    restart: always
+    image: frontend:v2
+    command: ["npm", "run", "dev"]
+    volumes:
+      - ./frontend:/frontend
+      - node-modules:/frontend/node_modules
+    ports:
+      - "5174:5174"
+
+  app:
+    container_name: BGP_FLASK_CONTAINER
+    image: backend:v2
+    ports:
+      - "5050:5050"
+    environment:
+      - MYSQL_HOST=10.73.211.89
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=root123
+      - MYSQL_DB=Mobily
+      - MYSQL_PORT=3306
+      - http_proxy=
+      - https_proxy=
+    depends_on:
+      - redis
+    volumes:
+      - ./app:/app
+      
+  redis:
+    image: redis:v2
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis:/data
+
+volumes:
+  node-modules:
+  app:
+  frontend:
+  redis: 

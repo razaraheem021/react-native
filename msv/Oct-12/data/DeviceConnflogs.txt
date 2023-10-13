@@ -1,0 +1,2674 @@
+{
+  "mobily-acl:mobily-acl": {
+    "acl-services": [
+      {
+        "acl-service-name": ""
+      },
+      {
+        "acl-service-name": "BC-A",
+        "sites": [
+          {
+            "site-name": "ADAM",
+            "devices": [
+              {
+                "device-name": "NETSIM-ADAM-WSER-CI-001",
+                "access-lists": [
+                  {
+                    "access-list-name": "ADMA-SR-ALL-IN-BC-A",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "ADMA-SR-ALL-IN-BC-A-IPv6",
+                    "vrf-name": "NXP",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "ADMA-SR-MSMN-IN-BC-A",
+                    "vrf-name": "NCB-L3",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MATCH-BC-A-INBOUND-IPv6",
+                    "vrf-name": "",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "device-name": "NETSIM-ADAM-WSER-CI-002",
+                "access-lists": [
+                  {
+                    "access-list-name": "ADMA-SR-ALL-IN-BC-A",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "ADMA-SR-ALL-IN-BC-A-IPv6",
+                    "vrf-name": "NXP",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "ADMA-SR-MSMN-IN-BC-A",
+                    "vrf-name": "NCB-L3",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MATCH-BC-A-INBOUND-IPv6",
+                    "vrf-name": "",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "site-name": "FYHA",
+            "devices": [
+              {
+                "device-name": "NETSIM-FYHA-WSER-CI-001",
+                "access-lists": [
+                  {
+                    "access-list-name": "FYHA-SR-ALL-IN-BC-A",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "FYHA-SR-ALL-IN-BC-A-IPv6",
+                    "vrf-name": "NXP",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "FYHA-SR-MSMN-IN-BC-A",
+                    "vrf-name": "NCB-L3",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MATCH-BC-A-INBOUND-IPv6",
+                    "vrf-name": "",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "device-name": "NETSIM-FYHA-WSER-CI-002",
+                "access-lists": [
+                  {
+                    "access-list-name": "FYHA-SR-ALL-IN-BC-A",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "FYHA-SR-ALL-IN-BC-A-IPv6",
+                    "vrf-name": "NXP",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "FYHA-SR-MSMN-IN-BC-A",
+                    "vrf-name": "NCB-L3",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MATCH-BC-A-INBOUND-IPv6",
+                    "vrf-name": "",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "site-name": "JED1",
+            "devices": [
+              {
+                "device-name": "NETSIM-JED1-WSER-CI-001",
+                "access-lists": [
+                  {
+                    "access-list-name": "JED1-SR-ALL-IN-BC-A",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "JED1-SR-ALL-IN-BC-A-IPv6",
+                    "vrf-name": "NXP",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "JED1-SR-MSMN-IN-BC-A",
+                    "vrf-name": "NCB-L3",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MATCH-BC-A-INBOUND-IPv6",
+                    "vrf-name": "",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "device-name": "NETSIM-JED1-WSER-CI-002",
+                "access-lists": [
+                  {
+                    "access-list-name": "JED1-SR-ALL-IN-BC-A",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "JED1-SR-ALL-IN-BC-A-IPv6",
+                    "vrf-name": "NXP",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "JED1-SR-MSMN-IN-BC-A",
+                    "vrf-name": "NCB-L3",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MATCH-BC-A-INBOUND-IPv6",
+                    "vrf-name": "",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "site-name": "MLQ2",
+            "devices": [
+              {
+                "device-name": "NETSIM-MLQ2-WSER-CI-001",
+                "access-lists": [
+                  {
+                    "access-list-name": "MATCH-BC-A-INBOUND-IPv6",
+                    "vrf-name": "",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MLGA-SR-ALL-IN-BC-A",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MLGA-SR-ALL-IN-BC-A-IPv6",
+                    "vrf-name": "NXP",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MLGA-SR-MSMN-IN-BC-A",
+                    "vrf-name": "NCB-L3",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "device-name": "NETSIM-MLQ2-WSER-CI-002",
+                "access-lists": [
+                  {
+                    "access-list-name": "MATCH-BC-A-INBOUND-IPv6",
+                    "vrf-name": "",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MLGA-SR-ALL-IN-BC-A",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MLGA-SR-ALL-IN-BC-A-IPv6",
+                    "vrf-name": "OOREDOO_NNI_DATA_VRF",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MLGA-SR-MSMN-IN-BC-A",
+                    "vrf-name": "NCB-L3",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "site-name": "SULM",
+            "devices": [
+              {
+                "device-name": "NETSIM-SULM-WSER-CI-001",
+                "access-lists": [
+                  {
+                    "access-list-name": "MATCH-BC-A-INBOUND-IPv6",
+                    "vrf-name": "",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "SLMN-SR-ALL-IN-BC-A",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "SLMN-SR-ALL-IN-BC-A-IPv6",
+                    "vrf-name": "NXP",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "SLMN-SR-MSMN-IN-BC-A",
+                    "vrf-name": "NCB-L3",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "device-name": "NETSIM-SULM-WSER-CI-002",
+                "access-lists": [
+                  {
+                    "access-list-name": "MATCH-BC-A-INBOUND-IPv6",
+                    "vrf-name": "",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "SLMN-SR-ALL-IN-BC-A",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "SLMN-SR-ALL-IN-BC-A-IPv6",
+                    "vrf-name": "NXP",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "SLMN-SR-MSMN-IN-BC-A",
+                    "vrf-name": "NCB-L3",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "acl-service-name": "BC-TU",
+        "sites": [
+          {
+            "site-name": "ADAM",
+            "devices": [
+              {
+                "device-name": "NETSIM-ADAM-WSER-CI-001",
+                "access-lists": [
+                  {
+                    "access-list-name": "ADMA-SR-ALL-IN-BC-A",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv4-prefix": "10.101.1.0/24"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "ADMA-SR-ALL-IN-BC-A-IPv6",
+                    "vrf-name": "OOREDOO_NNI_DATA_VRF",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv6-prefix": "2003::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "ADMA-SR-MSMN-IN-BC-A",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv4-prefix": "10.101.1.0/24"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MATCH-BC-A-INBOUND-IPv6",
+                    "vrf-name": "",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv6-prefix": "2003::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "device-name": "NETSIM-ADAM-WSER-CI-002",
+                "access-lists": [
+                  {
+                    "access-list-name": "ADMA-SR-ALL-IN-BC-A",
+                    "vrf-name": "NCB-L3",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv4-prefix": "10.101.1.0/24"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "ADMA-SR-ALL-IN-BC-A-IPv6",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv6-prefix": "2003::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "ADMA-SR-MSMN-IN-BC-A",
+                    "vrf-name": "NXP",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv4-prefix": "10.101.1.0/24"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MATCH-BC-A-INBOUND-IPv6",
+                    "vrf-name": "",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv6-prefix": "2003::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "site-name": "FYHA",
+            "devices": [
+              {
+                "device-name": "NETSIM-FYHA-WSER-CI-001",
+                "access-lists": [
+                  {
+                    "access-list-name": "FYHA-SR-ALL-IN-BC-A",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv4-prefix": "10.101.1.0/24"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "FYHA-SR-ALL-IN-BC-A-IPv6",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv6-prefix": "2003::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "FYHA-SR-MSMN-IN-BC-A",
+                    "vrf-name": "NCB-L3",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv4-prefix": "10.101.1.0/24"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MATCH-BC-A-INBOUND-IPv6",
+                    "vrf-name": "",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv6-prefix": "2003::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "device-name": "NETSIM-FYHA-WSER-CI-002",
+                "access-lists": [
+                  {
+                    "access-list-name": "FYHA-SR-ALL-IN-BC-A",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv4-prefix": "10.101.1.0/24"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "FYHA-SR-ALL-IN-BC-A-IPv6",
+                    "vrf-name": "NXP",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv6-prefix": "2003::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "FYHA-SR-MSMN-IN-BC-A",
+                    "vrf-name": "NCB-L3",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv4-prefix": "10.101.1.0/24"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MATCH-BC-A-INBOUND-IPv6",
+                    "vrf-name": "",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv6-prefix": "2003::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "site-name": "JED1"
+          },
+          {
+            "site-name": "MLQ2"
+          },
+          {
+            "site-name": "SULM"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+['ADAM', 'FYHA', 'JED1', 'MLQ2', 'SULM']
+Message List: ['ADAM', 'FYHA', 'JED1', 'MLQ2', 'SULM']
+<class 'list'>
+Message List: ['', 'BC-A', 'BC-TU']
+<class 'list'>
+Message List: ['', 'BC-A', 'BC-TU']
+<class 'list'>
+{
+  "mobily-acl:mobily-acl": {
+    "acl-services": [
+      {
+        "acl-service-name": ""
+      },
+      {
+        "acl-service-name": "BC-A",
+        "sites": [
+          {
+            "site-name": "ADAM",
+            "devices": [
+              {
+                "device-name": "NETSIM-ADAM-WSER-CI-001",
+                "access-lists": [
+                  {
+                    "access-list-name": "ADMA-SR-ALL-IN-BC-A",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "ADMA-SR-ALL-IN-BC-A-IPv6",
+                    "vrf-name": "NXP",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "ADMA-SR-MSMN-IN-BC-A",
+                    "vrf-name": "NCB-L3",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MATCH-BC-A-INBOUND-IPv6",
+                    "vrf-name": "",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "device-name": "NETSIM-ADAM-WSER-CI-002",
+                "access-lists": [
+                  {
+                    "access-list-name": "ADMA-SR-ALL-IN-BC-A",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "ADMA-SR-ALL-IN-BC-A-IPv6",
+                    "vrf-name": "NXP",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "ADMA-SR-MSMN-IN-BC-A",
+                    "vrf-name": "NCB-L3",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MATCH-BC-A-INBOUND-IPv6",
+                    "vrf-name": "",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "site-name": "FYHA",
+            "devices": [
+              {
+                "device-name": "NETSIM-FYHA-WSER-CI-001",
+                "access-lists": [
+                  {
+                    "access-list-name": "FYHA-SR-ALL-IN-BC-A",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "FYHA-SR-ALL-IN-BC-A-IPv6",
+                    "vrf-name": "NXP",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "FYHA-SR-MSMN-IN-BC-A",
+                    "vrf-name": "NCB-L3",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MATCH-BC-A-INBOUND-IPv6",
+                    "vrf-name": "",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "device-name": "NETSIM-FYHA-WSER-CI-002",
+                "access-lists": [
+                  {
+                    "access-list-name": "FYHA-SR-ALL-IN-BC-A",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "FYHA-SR-ALL-IN-BC-A-IPv6",
+                    "vrf-name": "NXP",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "FYHA-SR-MSMN-IN-BC-A",
+                    "vrf-name": "NCB-L3",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MATCH-BC-A-INBOUND-IPv6",
+                    "vrf-name": "",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "site-name": "JED1",
+            "devices": [
+              {
+                "device-name": "NETSIM-JED1-WSER-CI-001",
+                "access-lists": [
+                  {
+                    "access-list-name": "JED1-SR-ALL-IN-BC-A",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "JED1-SR-ALL-IN-BC-A-IPv6",
+                    "vrf-name": "NXP",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "JED1-SR-MSMN-IN-BC-A",
+                    "vrf-name": "NCB-L3",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MATCH-BC-A-INBOUND-IPv6",
+                    "vrf-name": "",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "device-name": "NETSIM-JED1-WSER-CI-002",
+                "access-lists": [
+                  {
+                    "access-list-name": "JED1-SR-ALL-IN-BC-A",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "JED1-SR-ALL-IN-BC-A-IPv6",
+                    "vrf-name": "NXP",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "JED1-SR-MSMN-IN-BC-A",
+                    "vrf-name": "NCB-L3",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MATCH-BC-A-INBOUND-IPv6",
+                    "vrf-name": "",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "site-name": "MLQ2",
+            "devices": [
+              {
+                "device-name": "NETSIM-MLQ2-WSER-CI-001",
+                "access-lists": [
+                  {
+                    "access-list-name": "MATCH-BC-A-INBOUND-IPv6",
+                    "vrf-name": "",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MLGA-SR-ALL-IN-BC-A",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MLGA-SR-ALL-IN-BC-A-IPv6",
+                    "vrf-name": "NXP",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MLGA-SR-MSMN-IN-BC-A",
+                    "vrf-name": "NCB-L3",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "device-name": "NETSIM-MLQ2-WSER-CI-002",
+                "access-lists": [
+                  {
+                    "access-list-name": "MATCH-BC-A-INBOUND-IPv6",
+                    "vrf-name": "",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MLGA-SR-ALL-IN-BC-A",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MLGA-SR-ALL-IN-BC-A-IPv6",
+                    "vrf-name": "OOREDOO_NNI_DATA_VRF",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MLGA-SR-MSMN-IN-BC-A",
+                    "vrf-name": "NCB-L3",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "site-name": "SULM",
+            "devices": [
+              {
+                "device-name": "NETSIM-SULM-WSER-CI-001",
+                "access-lists": [
+                  {
+                    "access-list-name": "MATCH-BC-A-INBOUND-IPv6",
+                    "vrf-name": "",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "SLMN-SR-ALL-IN-BC-A",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "SLMN-SR-ALL-IN-BC-A-IPv6",
+                    "vrf-name": "NXP",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "SLMN-SR-MSMN-IN-BC-A",
+                    "vrf-name": "NCB-L3",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "device-name": "NETSIM-SULM-WSER-CI-002",
+                "access-lists": [
+                  {
+                    "access-list-name": "MATCH-BC-A-INBOUND-IPv6",
+                    "vrf-name": "",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "SLMN-SR-ALL-IN-BC-A",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "SLMN-SR-ALL-IN-BC-A-IPv6",
+                    "vrf-name": "NXP",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv6-prefix": "2001::/48"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv6-prefix": "2004::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "SLMN-SR-MSMN-IN-BC-A",
+                    "vrf-name": "NCB-L3",
+                    "customers": [
+                      {
+                        "customer-name": "cust-1",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000011",
+                            "ipv4-prefix": "10.100.0.0/16"
+                          }
+                        ]
+                      },
+                      {
+                        "customer-name": "testCustomer",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000013",
+                            "ipv4-prefix": "10.101.0.0/16"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "acl-service-name": "BC-TU",
+        "sites": [
+          {
+            "site-name": "ADAM",
+            "devices": [
+              {
+                "device-name": "NETSIM-ADAM-WSER-CI-001",
+                "access-lists": [
+                  {
+                    "access-list-name": "ADMA-SR-ALL-IN-BC-A",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv4-prefix": "10.101.1.0/24"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "ADMA-SR-ALL-IN-BC-A-IPv6",
+                    "vrf-name": "OOREDOO_NNI_DATA_VRF",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv6-prefix": "2003::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "ADMA-SR-MSMN-IN-BC-A",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv4-prefix": "10.101.1.0/24"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MATCH-BC-A-INBOUND-IPv6",
+                    "vrf-name": "",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv6-prefix": "2003::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "device-name": "NETSIM-ADAM-WSER-CI-002",
+                "access-lists": [
+                  {
+                    "access-list-name": "ADMA-SR-ALL-IN-BC-A",
+                    "vrf-name": "NCB-L3",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv4-prefix": "10.101.1.0/24"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "ADMA-SR-ALL-IN-BC-A-IPv6",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv6-prefix": "2003::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "ADMA-SR-MSMN-IN-BC-A",
+                    "vrf-name": "NXP",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv4-prefix": "10.101.1.0/24"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MATCH-BC-A-INBOUND-IPv6",
+                    "vrf-name": "",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv6-prefix": "2003::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "site-name": "FYHA",
+            "devices": [
+              {
+                "device-name": "NETSIM-FYHA-WSER-CI-001",
+                "access-lists": [
+                  {
+                    "access-list-name": "FYHA-SR-ALL-IN-BC-A",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv4-prefix": "10.101.1.0/24"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "FYHA-SR-ALL-IN-BC-A-IPv6",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv6-prefix": "2003::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "FYHA-SR-MSMN-IN-BC-A",
+                    "vrf-name": "NCB-L3",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv4-prefix": "10.101.1.0/24"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MATCH-BC-A-INBOUND-IPv6",
+                    "vrf-name": "",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv6-prefix": "2003::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "device-name": "NETSIM-FYHA-WSER-CI-002",
+                "access-lists": [
+                  {
+                    "access-list-name": "FYHA-SR-ALL-IN-BC-A",
+                    "vrf-name": "BATELCO-VRF",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv4-prefix": "10.101.1.0/24"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "FYHA-SR-ALL-IN-BC-A-IPv6",
+                    "vrf-name": "NXP",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv6-prefix": "2003::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "FYHA-SR-MSMN-IN-BC-A",
+                    "vrf-name": "NCB-L3",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv4-prefix": "10.101.1.0/24"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "access-list-name": "MATCH-BC-A-INBOUND-IPv6",
+                    "vrf-name": "",
+                    "customers": [
+                      {
+                        "customer-name": "Customer-Test-01",
+                        "ip-prefixes": [
+                          {
+                            "sequence-number": "1800000012",
+                            "ipv6-prefix": "2003::/48"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "site-name": "JED1"
+          },
+          {
+            "site-name": "MLQ2"
+          },
+          {
+            "site-name": "SULM"
+          }
+        ]
+      }
+    ]
+  }
+}
